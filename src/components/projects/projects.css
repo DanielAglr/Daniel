@@ -1,0 +1,54 @@
+.projects {
+    width: 90vw;
+    max-width: 1500px;
+}
+.projects-array {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 400px;
+    min-height: 400px;
+    border-radius: 15px;
+    padding: 30px 25px;
+    background-color: var(--primary-light);
+    margin-bottom: 10px;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.folder-icon {
+    color: var(--accent);
+    font-size: 35px;
+}
+.external-links {
+    color: var(--contrast);
+    font-size: 25px;
+}
+.card-title {
+    color: var(--contrast);
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-info, .card-lang {
+    color: var(--contrast-dark);
+}
+.card-info {
+    font-size: 20px;
+}
+.card-lang {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    font-size: 15px;
+    margin-top: auto;
+}

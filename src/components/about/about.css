@@ -1,0 +1,35 @@
+.about {
+    width: 90vw;
+    max-width: 1500px;
+}
+.about-info {
+    color: var(--contrast-dark);
+    max-width: 750px;
+    font-size: 20px;
+    line-height: 1.75;
+}
+.about-info p {
+    padding-bottom: 20px;
+}
+.lang-list {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+.lang-list li {
+    display: flex;
+    height: 20px;
+    font-size: 20px;
+    list-style: none;
+    align-items: center;
+    margin: 10px 0;
+    margin-bottom: 10px;
+}
+.left-list {
+    width: 50%;
+    float: left;
+}
+.right-list {
+    width: 50%;
+    float: right;
+}
